@@ -22,3 +22,8 @@ enter a number:4
 ****
 
 """
+size=int(input("enter a number:"))
+for i in range(size):
+    for j in range(size):
+        print("*",end="")
+    print()

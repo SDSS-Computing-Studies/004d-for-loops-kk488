@@ -37,3 +37,11 @@ example:
 Enter a number: -4
 Invalid input
 """
+number=int(input("enter a number:"))
+fact=1
+if number>0 and isinstance(number,int):
+    for i in range(1,number+1):
+        fact=fact*i
+    print(number,"! is",fact)
+else:
+    print("invaild input")
